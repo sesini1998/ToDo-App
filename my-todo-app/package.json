@@ -1,0 +1,27 @@
+{
+  "name": "my-todo-app",
+  "version": "1.0.0",
+  "description": "My ToDo App",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "@types/react-dom": "^18.2.17",
+    "axios": "^0.21.4",
+    "next": "^12.0.7",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "typescript": "^4.5.5"
+  },
+  "devDependencies": {
+    "@types/node": "^16.11.15",
+    "@types/react": "^17.0.71",
+    "typescript": "^4.5.5"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

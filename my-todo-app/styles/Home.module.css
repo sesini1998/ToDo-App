@@ -1,0 +1,58 @@
+/* Home.module.css */
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .title {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .taskList {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .taskItem {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .taskCompleted {
+    text-decoration: line-through;
+    color: #888;
+  }
+  
+  .taskButtons {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .addTaskForm {
+    margin-top: 20px;
+  }
+  
+  .addTaskInput {
+    padding: 8px;
+    margin-right: 10px;
+  }
+  
+  .addTaskButton {
+    padding: 8px 12px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .addTaskButton:hover {
+    background-color: #45a049;
+  }
+  
